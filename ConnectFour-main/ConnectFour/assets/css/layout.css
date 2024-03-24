@@ -88,7 +88,14 @@ body[data-rules] .main-menu__wrapper {
 
 .main-menu .box-btn--yellow:after {
     content: url(../images/player-vs-player.svg);
+    position: absolute;
+    top: 58%; /* Mantiene la imagen centrada verticalmente */
+    left: 57.1%; /* Ajusta este valor para mover la imagen hacia la derecha */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 90px; /* Ajusta este valor para hacer la imagen más grande */
 }
+
 
 .rules {
     position: relative;
