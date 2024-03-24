@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="assets/js/Game.js" type="module"></script>
 
-  <title>Connect Four</title>
+  <title>Conecta Cuatro</title>
 </head>
 
 <body>
@@ -18,23 +18,23 @@
     <div class="main-menu__wrapper">
       <div class="main-menu__screen">
         <div class="start-menu | menu-box | box box--big box--purple">
-          <button class="btn-pvc | box-btn box-btn--red">Play vs CPU</button>
-          <button class="btn-pvp | box-btn box-btn--yellow">Play vs player</button>
-          <button class="btn-rules | box-btn box-btn--white">Game rules</button>
+          <button class="btn-pvc | box-btn box-btn--red">Jugar contra CPU</button>
+          <button class="btn-pvp | box-btn box-btn--yellow">Jugar contra jugador</button>
+          <button class="btn-rules | box-btn box-btn--white">Reglas del juego</button>
         </div>
       </div>
       <div class="main-menu__screen">
         <div class="rules | menu-box | box box--big box--white">
-          <p class="box-title">Rules</p>
-          <p class="box-subtitle">Objective</p>
-          <p class="box-text">Be the first player to connect 4 of the same colored discs in a row (either
-            vertically, horizontally, or diagonally).</p>
-          <p class="box-subtitle">How to play</p>
+          <p class="box-title">Reglas</p>
+          <p class="box-subtitle">Objetivo</p>
+          <p class="box-text">Ser el primer jugador en conectar 4 discos del mismo color en línea (ya sea vertical,
+            horizontal o diagonalmente).</p>
+          <p class="box-subtitle">Cómo jugar</p>
           <ul class="box-list">
-            <li class="box-item">Red goes first in the first game.</li>
-            <li class="box-item">Players must alternate turns, and only one disc can be dropped in each turn.</li>
-            <li class="box-item">The game ends when there is a 4-in-a-row or a stalemate.</li>
-            <li class="box-item">The starter of the previous game goes second on the next game.</li>
+            <li class="box-item">El rojo empieza primero en el primer juego.</li>
+            <li class="box-item">Los jugadores deben alternar turnos, y solo se puede soltar un disco en cada turno.</li>
+            <li class="box-item">El juego termina cuando hay un 4 en línea o un punto muerto.</li>
+            <li class="box-item">El jugador que empezó el juego anterior va segundo en el siguiente juego.</li>
           </ul>
           <button class="btn-ok-rules"></button>
         </div>
@@ -45,8 +45,8 @@
   <div class="game | full-vp">
     <div class="game__wrapper | full-vp">
       <header class="game__header">
-        <button class="btn-menu | game-btn">Menu</button>
-        <button class="btn-restart | game-btn">Restart</button>
+        <button class="btn-menu | game-btn">Menú</button>
+        <button class="btn-restart | game-btn">Reiniciar</button>
       </header>
       <div class="scores">
         <div class="score1 score | box box--white"></div>
@@ -57,7 +57,7 @@
       </div>
       <div class="status">
         <div class="info | box box--white">
-          <button class="btn-play | game-btn">Play</button>
+          <button class="btn-play | game-btn">Jugar</button>
         </div>
         <div class="timer"></div>
       </div>
@@ -67,10 +67,10 @@
   <div class="ingame-menu | full-vp">
     <div class="ingame-menu__wrapper | full-vp">
       <div class="menu-box | box box--big box--purple">
-        <p class="box-title">Pause</p>
-        <button class="btn-continue | box-btn box-btn--white">Continue game</button>
-        <button class="btn-restart-menu | box-btn box-btn--white">Restart</button>
-        <button class="btn-quit | box-btn box-btn--red">Quit game</button>
+        <p class="box-title">Pausa</p>
+        <button class="btn-continue | box-btn box-btn--white">Continuar juego</button>
+        <button class="btn-restart-menu | box-btn box-btn--white">Reiniciar</button>
+        <button class="btn-quit | box-btn box-btn--red">Salir del juego</button>
       </div>
     </div>
   </div>
